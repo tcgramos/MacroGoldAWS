@@ -1,0 +1,24 @@
+{
+  "name": "macrogold-heroku",
+  "description": "MacroGoldAWS adapted for Heroku deployment",
+  "repository": "https://github.com/your-org/macro-gold",
+  "keywords": ["fastapi", "trading", "macro", "xauusd"],
+  "env": {
+    "DATABASE_URL": {
+      "description": "Postgres connection URL"
+    },
+    "REDIS_URL": {
+      "description": "Redis connection URL"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
+  },
+  "addons": [
+    "heroku-postgresql:essential-0",
+    "heroku-redis:mini"
+  ]
+}
