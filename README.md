@@ -42,3 +42,8 @@ Serviços:
 7. CloudWatch + X-Ray + alarmes SNS
 
 Ver detalhes em [`docs/PRODUCTION_ARCHITECTURE.md`](docs/PRODUCTION_ARCHITECTURE.md).
+
+
+## Heroku simples (rápido)
+Se você quiser a versão mais simples (1 app API), use o guia:
+- `docs/HEROKU_SIMPLE_QUICKSTART_PTBR.md`
